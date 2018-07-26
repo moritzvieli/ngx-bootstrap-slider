@@ -5,3 +5,14 @@ This is an Angular component for the popular and very flexible seiyria/bootstrap
 Some demos are available here: https://seiyria.com/bootstrap-slider/
 
 Please refer to the readme located in projects/ngx-bootstrap-slider for more information.
+
+## Build & publish
+
+Publish a new version with the following commands:
+
+```
+cd projects/ngx-bootstrap-slider
+npm version minor
+cd ../..
+npm run publish
+```
