@@ -4,7 +4,7 @@
 /dist
 /tmp
 /out-tsc
-/projects/ngx-bootstrap-slider
+/projects/ngx-bootstrap-slider/dist
 
 # dependencies
 /node_modules
