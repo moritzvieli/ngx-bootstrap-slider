@@ -1,0 +1,21 @@
+{
+  "name": "ngx-bootstrap-slider",
+  "description": "A flexible bootstrap slider for Angular",
+  "homepage": "https://github.com/moritzvieli/ngx-bootstrap-slider",
+  "bugs": "https://github.com/moritzvieli/ngx-bootstrap-slider/issues",
+  "repository": "moritzvieli/ngx-bootstrap-slider",
+  "version": "1.2.0",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-slider": "^10.2.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "ngPackage": {
+    "whitelistedNonPeerDependencies": [
+      "bootstrap-slider"
+    ]
+  }
+}

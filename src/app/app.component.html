@@ -1,0 +1,8 @@
+<h2>Slider</h2>
+<mv-slider (slideStop)="slideStop()"  [(value)]="value" [min]="min" [max]="100" [enabled]="enabled" [ticks]="[1, 2, 3]" [ticksLabels]='["short", "medium", "long"]'></mv-slider>
+
+<!-- <app-test-slider (slideStop)="slideStop()"  [(value)]="value" [min]="min" [max]="100" [enabled]="enabled" [ticks]="[1, 2, 3]" [ticksLabels]='["short", "medium", "long"]'></app-test-slider> -->
+
+<h4>Value: {{ value }}</h4>
+
+<button (click)="change()">Change</button>
