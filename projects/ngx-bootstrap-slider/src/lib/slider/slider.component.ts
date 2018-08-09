@@ -203,7 +203,21 @@ export class SliderComponent implements OnInit {
   }
 
   ngOnInit() {
+    // Don't set the value over the initial options, because it will alway
+    // be reset. This option seems to be a little buggy.
+    let value = undefined;
+
+    if(this.initialOptions.value) {
+      value = this.initialOptions.value;
+      delete this.initialOptions['value'];
+    }
+
     this.slider = new Slider(this.sliderElement.nativeElement, this.initialOptions);
+    
+    if(value) {
+      this.slider.setValue(value);
+    }
+    
     this.prepareSlider();
   }
 
