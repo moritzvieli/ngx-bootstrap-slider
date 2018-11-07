@@ -21,7 +21,7 @@ export class SliderComponent implements OnInit {
   @Input()
   set style(value: any) {
     if (this.slider) {
-      this.slider.getElement().style = value;
+      this.slider.getElement().setAttribute('style', value);
     } else {
       this.initialStyle = value;
     }
@@ -189,7 +189,7 @@ export class SliderComponent implements OnInit {
     this.addChangeListeners();
 
     // Add the styling to the element
-    this.slider.getElement().style = this.initialStyle;
+    this.slider.getElement().setAttribute('style', this.initialStyle);
   }
 
   private changeAttribute(name: string, value: any) {
