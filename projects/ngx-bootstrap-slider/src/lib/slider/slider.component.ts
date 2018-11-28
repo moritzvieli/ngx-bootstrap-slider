@@ -133,7 +133,7 @@ export class SliderComponent implements OnInit {
   set ticksSnapBounds(value: number) {
     this.changeAttribute('ticks_snap_bounds', value);
   }
-  
+
   @Input()
   set ticksTooltip(value: boolean) {
     this.changeAttribute('ticks_tooltip', value);
@@ -152,6 +152,11 @@ export class SliderComponent implements OnInit {
   @Input()
   set rangeHighlights(value: any[]) {
     this.changeAttribute('rangeHighlights', value);
+  }
+
+  @Input()
+  set formatter(value: Function) {
+    this.changeAttribute('formatter', value);
   }
 
   // The following events are emitted
@@ -207,17 +212,17 @@ export class SliderComponent implements OnInit {
     // be reset. This option seems to be a little buggy.
     let value = undefined;
 
-    if(this.initialOptions.value) {
+    if (this.initialOptions.value) {
       value = this.initialOptions.value;
       delete this.initialOptions['value'];
     }
 
     this.slider = new Slider(this.sliderElement.nativeElement, this.initialOptions);
-    
-    if(value) {
+
+    if (value) {
       this.slider.setValue(value);
     }
-    
+
     this.prepareSlider();
   }
 
