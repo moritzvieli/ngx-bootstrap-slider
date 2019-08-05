@@ -85,8 +85,8 @@ export class TestSliderComponent implements OnInit {
   }
 
   @Input()
-  set tooltipPosition(value: boolean) {
-    this.changeAttribute('tooltipPosition', value);
+  set tooltipPosition(value: string) {
+    this.changeAttribute('tooltip_position', value);
   }
 
   @Input()
