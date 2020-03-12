@@ -18,10 +18,10 @@
     ],
     "paths": {
       "ngx-bootstrap-slider": [
-        "dist/ngx-bootstrap-slider"
+        "projects/ngx-bootstrap-slider/src/public_api"
       ],
       "ngx-bootstrap-slider/*": [
-        "dist/ngx-bootstrap-slider/*"
+        "projects/ngx-bootstrap-slider/src/public_api"
       ]
     }
   }
