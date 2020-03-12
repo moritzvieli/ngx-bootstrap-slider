@@ -159,6 +159,11 @@ export class SliderComponent implements OnInit {
     this.changeAttribute('formatter', value);
   }
 
+  @Input()
+  set lockToTicks(value: Function) {
+    this.changeAttribute('lock_to_ticks', value);
+  }
+
   // The following events are emitted
   @Output() slide = new EventEmitter();
 
