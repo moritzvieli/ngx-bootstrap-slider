@@ -61,8 +61,6 @@ All available properties are described here: https://github.com/seiyria/bootstra
 
 The names have been unified to camel-casing (e.g. `[ticksLabels]` not `[ticks_labels]`).
 
-Please note, that the attribute `formatter` is not yet available.
-
 ## Events
 
 All available events are described here: https://github.com/seiyria/bootstrap-slider#events
