@@ -9,7 +9,7 @@ declare var Slider: any;
 })
 export class SliderComponent implements OnInit {
   // The slider HTML element
-  @ViewChild('slider') sliderElement;
+  @ViewChild('slider') sliderElement: any;
 
   // The slider object
   slider: any;
