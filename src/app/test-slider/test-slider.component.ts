@@ -9,7 +9,7 @@ declare var Slider: any;
 })
 export class TestSliderComponent implements OnInit {
   // The slider HTML element
-  @ViewChild('slider') sliderElement;
+  @ViewChild('slider', { static: true }) sliderElement;
 
   // The slider object
   slider: any;
