@@ -17,7 +17,7 @@ npm install ngx-bootstrap-slider
 | Angular Version | ngx-bootstrap-slider Version |
 | --------------- | ---------------------------- |
 | Until v12       | 1.9.0                        |
-| From v13        | 1.10.0                       |
+| From v13        | 2.0.0                        |
 
 ## Setup
 

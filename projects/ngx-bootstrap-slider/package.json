@@ -4,7 +4,7 @@
   "homepage": "https://github.com/moritzvieli/ngx-bootstrap-slider",
   "bugs": "https://github.com/moritzvieli/ngx-bootstrap-slider/issues",
   "repository": "moritzvieli/ngx-bootstrap-slider",
-  "version": "1.10.0",
+  "version": "2.0.0",
   "license": "MIT",
   "keywords": [
     "angular",
@@ -19,10 +19,5 @@
   "peerDependencies": {
     "@angular/common": "^10.0.0-rc.0 || ^10.0.0",
     "@angular/core": "^10.0.0-rc.0 || ^10.0.0"
-  },
-  "ngPackage": {
-    "whitelistedNonPeerDependencies": [
-      "bootstrap-slider"
-    ]
   }
 }

@@ -3,5 +3,6 @@
   "dest": "../../dist/ngx-bootstrap-slider",
   "lib": {
     "entryFile": "src/public_api.ts"
-  }
+  },
+  "allowedNonPeerDependencies": ["bootstrap-slider"]
 }

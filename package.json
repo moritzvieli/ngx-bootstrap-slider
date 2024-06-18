@@ -9,9 +9,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build_lib": "ng build --configuration production ngx-bootstrap-slider",
-    "npm_pack": "cd projects/ngx-bootstrap-slider/dist && npm pack",
+    "npm_pack": "cd dist/ngx-bootstrap-slider && npm pack",
     "package": "npm run build_lib && npm run npm_pack",
-    "publish": "npm run package && cd projects/ngx-bootstrap-slider/dist && npm publish"
+    "publish": "npm run package && cd dist/ngx-bootstrap-slider && npm publish"
   },
   "private": true,
   "dependencies": {
